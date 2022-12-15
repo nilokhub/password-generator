@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: rgb(27, 27, 27);
+    overflow: hidden;
+}
+
+button{
+    position: relative;
+    top: 100px;
+    width: 80px;
+    height: 80px;
+    border-radius: 90%;
+    margin: 30px;
+    background-color: rgb(255, 193, 78);
+}
+
+h1{
+    background-color: aliceblue;
+    border-radius: 30px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    border: 1px solid rgb(160, 160, 160);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+#divOne{
+    position: absolute;
+    background-color: aquamarine;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    /* border: 1px solid rgb(160, 160, 160);; */
+}
+
+#divTwo{
+    position: absolute;
+    background-color:rgb(160, 160, 160);
+    width: 50%;
+    height: 50%;
+    margin-left: 30%;
+    margin-top: 30px;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+#el-pass{
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    border: 1px solid rgb(160, 160, 160);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+
+    position: fixed;
+    left: 42%;
+}
